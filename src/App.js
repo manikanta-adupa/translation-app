@@ -10,7 +10,6 @@ function App() {
   const [output, setOutput] = useState('');
 
   const translate = () => {
-    // curl -X POST "https://libretranslate.de/translate" -H  "accept: application/json" -H  "Content-Type: application/x-www-form-urlencoded" -d "q=hello&source=en&target=es&api_key=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
    
     const params = new URLSearchParams();
     params.append('q', input);
